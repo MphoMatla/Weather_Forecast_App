@@ -10,7 +10,7 @@ a {
 .weather-app {
   background: white;
   max-width: 600px;
-  margin: 45px auto;
+  margin: 50px  auto;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
   border-radius: 16px;
   padding: 30px;
@@ -71,17 +71,18 @@ main {
 }
 
 .weather-app-icon {
-  width: 88px;
-  height: 88px;
+  font-size: 40px;
+  margin-top: 20px;
 }
 
 .weather-app-temperature {
   font-size: 88px;
   line-height: 88px;
   font-weight: bold;
+  margin-top: 8px;
 }
 
-.weatehr-app-unit {
+.weather-app-unit {
   margin-top: 6px;
   font-size: 28px;
 }
